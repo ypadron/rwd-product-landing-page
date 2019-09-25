@@ -1,0 +1,214 @@
+/*****  BASE SYLES  *****/
+/***** END BASE SYLES *****/
+@media screen and (min-width: 320px) {
+
+  * {
+    max-width: 100%;
+  }
+
+  header  {
+    flex-direction: column;
+  }
+
+  #header-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  h1  {
+    font-size: 6vw; /*make responsive*/
+    margin: 0;
+  }
+
+  #nav-bar {
+    margin: 0 auto;
+    flex-wrap: nowrap;
+  }
+
+  .nav-link  {
+    font-size: ;
+    padding: 10px 10px;
+    margin: 0;
+  }
+
+  main  {
+    top: 109px;
+  }
+
+  #main-images  {
+    /* min-width: 320px; */
+  }
+
+  #main-image-1 {
+    display: none;
+  }
+
+  #main-image-2  {
+    max-width: 100%;
+  }
+
+  #link1, #link2, #link3, #link4  {
+    height: auto;
+  }
+
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: top;
+    }
+
+  #stock-notice {
+    max-width: 100%;
+  }
+
+  form {
+    max-width: 100%;
+    min-width: 300px;
+  }
+
+  label {
+    text-align: left;
+  }
+
+  #button {
+    padding-left: 0px;
+    margin-left: .25em;
+  }
+
+  /****** About Section *****/
+  .about {
+    max-width: 100%;
+    min-width: 300px;
+  }
+
+  /****** Video Section *****/
+  video  {
+    max-width: 100%;
+    min-width: 300px;
+    height: 250px;
+    /* margin: 0 auto; */
+  }
+
+  .howto  {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .howto > h3  {
+    /* margin-top: 0; */
+    padding: 1% 2%;
+  }
+
+}
+
+@media screen and (min-width: 600px)  {
+
+  header {
+    flex-direction: row;
+  }
+
+  h1  {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 700px)  {
+
+  main {
+    top: 73px;
+  }
+
+  #main-images  {
+    display: flex; /*inline-flex */
+    height: auto;
+    padding: 2%;
+  }
+
+  #main-image-1 {
+    display: inline-flex;
+    flex: 33.3%;
+    max-width: 33.3%;
+    height: auto;
+  }
+
+  #main-image-2 {
+    flex: 66.6%;
+    max-width: 66.6%;
+    height: auto;
+  }
+
+  .flex-container {
+    flex-wrap: nowrap;
+  }
+
+  video  {
+    /* max-width: 100%; */
+    min-width: 300px;
+    height: auto;
+    margin: 2% auto;
+  }
+
+  .howto  {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    align-content: start;
+    align-items: top;
+  }
+
+  #recipe-image {
+    margin: auto;
+  }
+
+  #ingredients, #prep {
+    margin-top: 0;
+    height: 360px;
+  }
+
+}
+
+@media screen and (min-width: 957px)  {
+
+  #main-image-1 {
+    display: inline-flex;
+    flex: 33.3%;
+    max-width: 33.3%;
+    height: auto;
+  }
+
+  #main-image-2 {
+    flex: 66.6%:
+    max-width: 66.6%;
+    height: auto;
+  }
+
+  .howto  {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    align-items: top;
+  }
+
+}
+
+@media screen and (min-width: 1348px)  {
+  #main-images  {
+    /* padding-left: 3.25%; */
+  }
+
+  footer  {
+    width: 100%;
+    display: flex;
+    height: 75px;
+    background-color: seagreen;
+    /* margin: 0 auto; */
+  }
+
+  #footer-text {
+    display: flex;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+  }
+}
